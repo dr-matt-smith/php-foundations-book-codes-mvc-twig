@@ -1,0 +1,24 @@
+header {
+    padding: 0.5rem;
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid grey;
+}
+
+header h1 {
+    flex: 1;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: 50px;
+}
+
+footer {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: grey;
+    color: yellow;
+}

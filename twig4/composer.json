@@ -1,0 +1,13 @@
+{
+  "scripts":{
+    "run":"php -S localhost:8000 -t ./public"
+  },
+  "autoload":{
+    "psr-4":{
+      "Tudublin\\":"src"
+    }
+  },
+  "require": {
+    "twig/twig": "^3.0"
+  }
+}
