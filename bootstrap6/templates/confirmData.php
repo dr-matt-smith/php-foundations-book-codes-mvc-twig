@@ -24,16 +24,15 @@ Thanks your for your enquiry - we aim to respond within 2 working days.
 
 <div class="form-group">
     <label for="exampleInputEmail1">Your name</label>
-    <input class="form-control" name="customerName" value="<?= $customerName ?>" readonly>
+    <input class="form-control" value="<?= $customerName ?>" readonly>
 </div>
 
 <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" aria-describedby="emailHelp" name="customerEmail" value="<?= $customerEmail ?>" readonly>
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <input class="form-control" value="<?= $customerEmail ?>" readonly>
 </div>
 
 <div class="form-group">
     <label for="exampleFormControlTextarea1">Your enquiry</label>
-    <textarea class="form-control" name="enquiry" rows="3" readonly><?= $enquiry ?></textarea>
+    <textarea class="form-control" rows="3" readonly><?= $enquiry ?></textarea>
 </div>
